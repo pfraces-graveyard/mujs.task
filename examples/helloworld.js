@@ -1,14 +1,3 @@
-task
-====
-
-Async task scheduler
-
-Usage
------
-
-**examples/helloworld.js**
-
-```js
 var task = require('../src/task.js');
 var map = require('../src/map.js');
 
@@ -25,4 +14,3 @@ var greetTheWorld = map(greet, function (greeting) {
 greetTheWorld.subscribe(function (greeting) {
   console.log(greeting);
 });
-```
