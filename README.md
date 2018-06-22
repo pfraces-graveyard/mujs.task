@@ -26,3 +26,8 @@ greetTheWorld.subscribe(function (greeting) {
   console.log(greeting);
 });
 ```
+
+Motivation
+----------
+
+[RxJS 5 Thinking Reactively | Ben Lesh](https://www.youtube.com/watch?v=3LKMwkuK0ZE)
